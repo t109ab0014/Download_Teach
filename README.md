@@ -5,7 +5,7 @@
 
 - 證交所：安裝並使用ffmpeg，需要該影片[.m3u8]的位址
 - 1.建立「webURL.txt」，並修改路徑
-- 2.在[證交所找到該公司網址](https://webpro.twse.com.tw/WebPortal/search/investor/?searchPageUrl=%2FWebPortal%2Fsearch%2Finvestor%2F&keyword=%E6%96%B0%E5%85%89%E9%87%91&eventDateFrom=&eventDateTo=&topCategoryId=&subCategoryId=&industryCode=&market=&speaker=&description=&order=eventDate&queryType=normal), 在[getWebURL.py]目標網址裡面修改，並修改#總共？頁
+- 2.在[證交所找到該公司網址](https://webpro.twse.com.tw/WebPortal/search/investor/?searchPageUrl=%2FWebPortal%2Fsearch%2Finvestor%2F&keyword=%E6%96%B0%E5%85%89%E9%87%91&eventDateFrom=&eventDateTo=&topCategoryId=&subCategoryId=&industryCode=&market=&speaker=&description=&order=eventDate&queryType=normal) , 在[getWebURL.py]目標網址裡面修改，並修改#總共？頁
 - 3.再使用[m3u8toCSV.py]抓取位址，使用[下載test.xlsx]模板來獲取cmd命令
 > 可以全部貼上終端機，或是修改一個記事本的內容與副檔名，改成.cmd ，請參考test.cmd
 
