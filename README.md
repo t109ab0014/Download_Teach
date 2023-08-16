@@ -1,13 +1,13 @@
 # Download_Teach
 經理人聲音情緒與投資人有限注意：影片下載教學
 裡面附上可以自動化下載證交所的webURL.py , 可自行搭配m3u8toCSV.py , 或是直接使用[m3u8]位址去下載（可使用下載test.csv模組）
-# Requirements 安裝
+# Requirements pip
 - selenium
 - requests
 - BeautifulSoup
-- https://chromedriver.chromium.org/home
 
-1.安裝與啟用 
+[1.安裝與啟用 參考]([http://gitcafe.com](https://medium.com/seaniap/%E7%94%A8python%E6%8E%A7%E5%88%B6chrome%E7%80%8F%E8%A6%BD%E5%99%A8-selenium%E5%88%9D%E9%AB%94%E9%A9%97-732929668ce3
+)) 
 安裝Selenium
 在使用Selenium執行網站的操作前，首先需先確認是否已經安裝Selenium套件。我們可以使用pip安裝Selenium，或者是直接在Anaconda裡面安裝套件。下面是透過pip安裝的指令：
 
@@ -34,5 +34,6 @@ https://chromedriver.chromium.org/
 下載完畢後，將檔案放在專案裡面（目前我把檔案放在driver資料夾裡面）。如此，我們就可以使用webdriver.Chrome()建立一個Chrome瀏覽器物件。
 
 然後我們用driver變數，標示webdriver.Chrome()物件。（當然，您也可以用別的名稱當變數。）括弧裡面放置剛剛下載的檔案路徑，可以參考如下：
-
+``` 
 driver = webdriver.Chrome('/your_path/your_project/driver/chromedriver')
+``` 
