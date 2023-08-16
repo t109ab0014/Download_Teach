@@ -6,8 +6,7 @@
 - requests
 - BeautifulSoup
 
-[1.安裝與啟用 參考]([http://gitcafe.com](https://medium.com/seaniap/%E7%94%A8python%E6%8E%A7%E5%88%B6chrome%E7%80%8F%E8%A6%BD%E5%99%A8-selenium%E5%88%9D%E9%AB%94%E9%A9%97-732929668ce3
-)) 
+[1.安裝與啟用 參考](https://medium.com/seaniap/%E7%94%A8python%E6%8E%A7%E5%88%B6chrome%E7%80%8F%E8%A6%BD%E5%99%A8-selenium%E5%88%9D%E9%AB%94%E9%A9%97-732929668ce3)
 安裝Selenium
 在使用Selenium執行網站的操作前，首先需先確認是否已經安裝Selenium套件。我們可以使用pip安裝Selenium，或者是直接在Anaconda裡面安裝套件。下面是透過pip安裝的指令：
 
