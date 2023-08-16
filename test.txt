@@ -1,0 +1,4 @@
+﻿chcp 65001
+ffmpeg -i "https://webprovod.twse.com.tw/vod/_definst_/9F/46/632B5579939F-010334E4-89FD-11EA-9F46/632B5579939F-010334E4-89FD-11EA-9F46_ATM.mp4/playlist.m3u8?memberId=" -c copy "G:\國科會_下載法說會影片檔\下載成功\光寶科技109年度第一季法人.mp4"
+ffmpeg -i "https://webprovod.twse.com.tw/vod/_definst_/88/53/55FFB70F4305-385998AA-5882-11EA-8853/55FFB70F4305-385998AA-5882-11EA-8853_ATM.mp4/playlist.m3u8?memberId=" -c copy "G:\國科會_下載法說會影片檔\下載成功\光寶科技108年度第四季法.mp4"
+ffmpeg -i "https://webprovod.twse.com.tw/vod/_definst_/A4/C0/452A82DEFA50-A707F31F-B42B-11E9-A4C0/452A82DEFA50-A707F31F-B42B-11E9-A4C0_ATM.mp4/playlist.m3u8?memberId=" -c copy "G:\國科會_下載法說會影片檔\下載成功\光寶科技108年度第二季法說.mp4"
