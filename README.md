@@ -1,7 +1,9 @@
 # Download_Teach
 ## 經理人聲音情緒與投資人有限注意：影片下載教學
-![流程](https://github.com/t109ab0014/Download_Teach/blob/main/%E6%B5%81%E7%A8%8B.jpg)
+
 本專案提供了一個自動化下載證交所的工具，你可以使用webURL.py，或者是配合m3u8toCSV.py進行工作，也可以直接使用m3u8位址進行下載（可使用下載test.xlsx模組）。
+
+![image](https://github.com/t109ab0014/Download_Teach/blob/main/%E6%B5%81%E7%A8%8B.jpg)
 
 - 證交所：安裝並使用ffmpeg，需要該影片[.m3u8]的位址
 - 1.建立「webURL.txt」，並修改路徑
