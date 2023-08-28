@@ -54,4 +54,5 @@ driver = webdriver.Chrome('/your_path/your_project/driver/chromedriver')
 
 ### 問題排除
 1.如果是證交所中的年代久遠的影片只有音檔，並且[playlist.m3u8]的URL是“https://wowza.twse.com.tw” ，請參考 [這篇文章](https://zerotech.club/blob-video-download/)
+
 2.如果是“gridow.com”,請參考[下載test.xlsx]模板中的mac與window分頁，裡面有cmd命令可以使用（只需更改網址跟檔案名稱）
