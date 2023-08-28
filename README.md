@@ -50,7 +50,8 @@ driver = webdriver.Chrome('/your_path/your_project/driver/chromedriver')
 ```
 
 ### 更多資訊
-如果你需要更詳細的指導，請參考 [這篇文章](https://medium.com/seaniap/%E7%94%A8python%E6%8E%A7%E5%88%B6chrome%E7%80%8F%E8%A6%BD%E5%99%A8-selenium%E5%88%9D%E9%AB%94%E9%A9%97-732929668ce3)。
+如果你需要更詳細的爬蟲指導，請參考 [這篇文章](https://medium.com/seaniap/%E7%94%A8python%E6%8E%A7%E5%88%B6chrome%E7%80%8F%E8%A6%BD%E5%99%A8-selenium%E5%88%9D%E9%AB%94%E9%A9%97-732929668ce3)。
 
 ### 問題排除
-如果是證交所中的年代久遠的影片只有音檔，並且[playlist.m3u8]的URL是“https://wowza.twse.com.tw” ，請參考 [這篇文章](https://zerotech.club/blob-video-download/)
+1.如果是證交所中的年代久遠的影片只有音檔，並且[playlist.m3u8]的URL是“https://wowza.twse.com.tw” ，請參考 [這篇文章](https://zerotech.club/blob-video-download/)
+2.如果是“gridow.com”,請參考[下載test.xlsx]模板中的mac與window分頁，裡面有cmd命令可以使用（只需更改網址跟檔案名稱）
